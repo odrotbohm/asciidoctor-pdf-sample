@@ -1,0 +1,90 @@
+= Sample Asciidoctor PDF Template
+Oliver Drotbohm, April 2019
+:source-highlighter: rouge
+:toc:
+:toclevels: 3
+:imagesdir: images/
+//:media: prepress // Enable for alternating page margins
+:sectnums:
+:sectnumlevels: 2
+:icons: font
+
+[preface]
+== Introduction
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit? Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem; Nulla consequat massa quis enim; Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu? In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo? Nullam dictum felis eu pede mollis pretium; Integer tincidunt! Cras dapibus? Vivamus elementum semper nisi! Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim? Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet? Quisque rutrum! Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi! Nam eget dui! Lorem ipsum dolor sit amet, consectetuer adipiscing elit; Aenean commodo ligula eget dolor? Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus; Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim! Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo? Nullam dictum felis eu pede mollis pretium? Integer tincidunt?
+
+Cras dapibus. Vivamus elementum semper nisi; Aenean vulputate eleifend tellus! Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim? Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet! Quisque rutrum! Aenean imperdiet! Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui? Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor? Aenean massa; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus; Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem; Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo! Nullam dictum felis eu pede mollis pretium? Integer tincidunt; Cras dapibus. Vivamus elementum semper nisi; Aenean vulputate eleifend tellus! Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim! Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet!
+
+Quisque rutrum. Aenean imperdiet; Etiam ultricies nisi vel augue? Curabitur ullamcorper ultricies nisi! Nam eget dui; Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor; Aenean massa? Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem; Nulla consequat massa quis enim; Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu; In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo! Nullam dictum felis eu pede mollis pretium! Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi; Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim? Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus! Phasellus viverra nulla ut metus varius laoreet; Quisque rutrum? Aenean imperdiet! Etiam ultricies nisi vel augue; Curabitur ullamcorper ultricies nisi; Nam eget dui? Lorem ipsum dolor sit amet, consectetuer adipiscing elit; Aenean commodo ligula eget dolor. Aenean massa? Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus; Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem;
+
+Nulla consequat massa quis enim? Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu! In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium! Integer tincidunt; Cras dapibus; Vivamus elementum semper nisi? Aenean vulputate eleifend tellus; Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet;
+
+=== Level 2
+
+==== Level 3
+
+== Back to Level 1
+
+.Interaction model for event syndication via REST (from <<sos>>)
+image::sos-rest.png[]
+
+NOTE: Lorem ipsum dolor sit amet, consectetuer adipiscing elit? Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+* Bullet points
+* More bullet points
+
+[TIP]
+====
+. Lorem ipsum dolor sit amet, consectetuer adipiscing elit?
+. Lorem ipsum dolor sit amet, consectetuer adipiscing elit?
+. Lorem ipsum dolor sit amet, consectetuer adipiscing elit?
+====
+
+*_Some definition_* – Lorem ipsum dolor sit amet, consectetuer adipiscing elit? Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+*_Some other definition_* – Lorem ipsum dolor sit amet, consectetuer adipiscing elit? Aenean commodo ligula eget dolor! Aenean massa! Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+For more information see the https://speakerdeck.com/olivergierke/refactoring-to-a-system-of-systems?slide=23["Microlith" section] in _Refactoring to a System of Systems_ <<sos>>.
+
+[plantuml, fileupload-aggregate]
+.A sample state machine
+----
+hide empty description
+[*] -down-> Uploaded
+Uploaded -[dotted]-> Verified : on verification result
+Uploaded -[dotted]-> Invalid : on verification result
+Verified -down-> Resolved
+Invalid -down-> Resolved
+Resolved --> [*]
+----
+
+[WARNING]
+====
+. A warning!
+. Another warning!
+====
+
+
+[source, java]
+----
+@SpringBootApplication <1>
+public class Application {
+
+  public static void main(String... args) {
+
+  }
+}
+----
+<1> A Spring Boot application
+
+[IMPORTANT]
+====
+Something really important!
+====
+
+
+[bibliography]
+== References
+
+- [[[sos]]] Refactoring to a System of Systems, Oliver Drotbohm – https://speakerdeck.com/olivergierke/refactoring-to-a-system-of-systems[Slidedeck], https://www.youtube.com/results?search_query=Refactoring+to+a+System+of+Systems[Video recordings]
